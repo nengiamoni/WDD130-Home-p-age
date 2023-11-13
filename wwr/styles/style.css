@@ -224,6 +224,11 @@ main section img {
     #hero-msg {
         margin-top: 0;
     }
+    .subpage-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
     #hero-msg h4 {
         display: none;
     }
@@ -234,6 +239,12 @@ main section img {
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
+    }
+    .msg {
+        background-color: #f4f4f4;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
     }
     #background {
         display: none;
