@@ -254,6 +254,85 @@ main section img {
         display: block;
         margin: 0 auto;
     }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .faq-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .image-box {
+        flex: 1;
+        margin-right: 20px;
+        max-width: 400px;
+    }
+    .image-box img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    .text-box {
+        flex: 1;
+    }
+    .text-box h3 {
+        color: #333;
+    }
+    .text-box p {
+        color: #666;
+    }
+    .faq-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 20px 0;
+    }
+    .msg {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .msg h2 {
+        color: #333;
+    }
+    .msg p {
+        color: #666;
+    }
+    .join {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 10px;
+    }   
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }    
+    .social {
+        margin-top: 10px;
+    }
+    .social a {
+        margin: 0 10px;
+    }
+    .FAQ{
+        width: 100%;
+        grid-column: 2/7;
+        grid-row: 5/8;
+        box-shadow: 5px 5px 10px #6f7364;
+    }
+    .FAQ, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    
     footer {
         margin-top: 25px;
     }
