@@ -34,7 +34,9 @@ nav a{
     color: white;
     text-align: center;
     padding: 35px;
+    z-index: 10;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
