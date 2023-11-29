@@ -94,7 +94,7 @@ main section{
 }
 #background {
     height: 725px;
-    background-color: gray;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
@@ -102,7 +102,7 @@ main section{
     grid-row: 20;
 }
 body {
-    background-color: #fcfbfb; 
+    background-color: grey; 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
@@ -149,12 +149,14 @@ nav {
     margin-top: 10px;
 }
 nav a {
-    color: #fff;
     text-decoration: none;
-    margin: 0 15px;
+    color: #fff;
+    text-align: center;
+    padding: 35px;
+    z-index: 10;
 }
 h4{
-    color: black;
+    color: white;
 }
 .msg h2{
     color: white;
@@ -180,7 +182,7 @@ footer .social img {
     height: 100px;
 }
 footer {
-    background-color: grey;
+    background-color: black;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
