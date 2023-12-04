@@ -96,43 +96,70 @@
             <a href="contactus.html">Contact Us</a>
         </nav>
     </header>
-    <main>
-        <div id="feedback"></div>
+        <section class="main nopad-b">
+			<div class="row">
+				<div id="text-main" class="col-5">
+					<h1>Contact 
+                        <br>
+					    Get in touch with me via social media or email
+                        <br>
+                        Reach out to me on all my social media here or <br>send us a message on our gmail down below thanks 
 
-        <form action="/my-handling-form-page" method="post">
-			<ul>
-				<li>
-					<label for="name">Name:</label>
-					<input type="text" id="name" name="user_name" />
-				</li>
-				<li>
-					<label for="mail">E-mail:</label>
-					<input type="email" id="mail" name="user_mail" />
-				</li>
-				<li>
-					<label for="msg">Message:</label>
-					<textarea id="msg" name="user_message"></textarea>
-				</li>
-				<li class="button">
-					<button type="submit">Send your message</button>
-				</li>
-			</ul>
-		</form>
+                    </h1>
+					<ul class="social-disc">
+                        <img src="image/facebook.png" alt="Facebook" class="fb">
+						<li><a href="http://www.facebook.com/" target="_blank" class="facebook">Facebook </a></li>
+                        <img src="image/logo_100x100-modified.png" alt="linkden" class="lk">
+						<li><a href="http://www.linkedin.com/" target="_blank" class="linkedin">LinkedIn</a></li>
+                        <img src="image/instagram.png" alt="Instagram" class="Ig"> 
+						<li><a href="https://www.instagram.com/" target="_blank" class="instagram">Instagram</a></li>
+					</ul>
+			</div>
+
+		</section>
+
+    <main class="contact_grid">
+        <p>Send me an email.</p>
+        <form action="my-contact-us-form-page "method="post" class="grids">
+            <ul class="Grid">
+                <li class="name">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="text" id="mail" name="user_name"/>
+                </li>
+                <li class="message">
+                    <label for="msg">Message:</label>
+                    <textarea name="user_message" id="msg" cols="30" rows="10" class="text"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Send your message</button>
+    
+                </li>
+    
+            </ul>
+        </form>
+    
+
     </main>
-
     <footer>
-        <p>Dry Oar &copy; 2023 - FAVOUR AMONI</p>
-        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p>Event site &copy; 2023 - FAVOUR AMONI</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
         <p><a href="contactus.html">Contact Us</a></p>
         <div class="social">
             <a href="https://facebook.com" target="_blank" >
-                <img src="images/facebook.png" alt="fb icon">
+                <img src="image/facebook.png" alt="fb icon">
             </a>
-            <a href="https://twitter.com" target="_blank" >
-                <img src="images/twitter.png" alt="twitter icon">
+            <a href="https://tiktoc.com" target="_blank" >
+                <img src="image/tiktok.png" alt="twitter icon">
             </a>
             <a href="https://instagram.com" target="_blank" >
-                <img src="images/instagram.png" alt="instagram icon">
+                <img src="image/instagram.png" alt="instagram icon">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="image/logo_100x100-modified.png" alt="linkeln icon">
             </a>
         </div>
     </footer>
